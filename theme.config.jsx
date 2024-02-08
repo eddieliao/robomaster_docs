@@ -19,6 +19,12 @@ export default {
             titleTemplate: '%s'
           }
         }
+    },
+    primaryHue: 27,
+    primarySaturation: 85,
+    docsRepositoryBase: 'https://github.com/eddieliao/robomaster_docs/tree/main/',
+    feedback: {
+        content: null
     }
     // ... other theme options
 }
