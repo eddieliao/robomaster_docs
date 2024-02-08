@@ -8,7 +8,6 @@ module.exports = withNextra({
         unoptimized: true,
     },
     output: 'export',
-    basePath: '/robomaster_docs'
 })
    
 // If you have other Next.js configurations, you can pass them as the parameter:
