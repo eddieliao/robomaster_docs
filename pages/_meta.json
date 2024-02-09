@@ -1,0 +1,22 @@
+{
+    "index": {
+        "title": "Home",
+        "type": "page"
+    },
+    "mech": {
+        "title": "Mechanical",
+        "type": "page"
+    },
+    "hardware": {
+        "title": "Hardware",
+        "type": "page"
+    },
+    "firmware": {
+        "title": "Firmware",
+        "type": "page"
+    },
+    "cv": {
+        "title": "Computer Vision",
+        "type": "page"
+    }
+  }
