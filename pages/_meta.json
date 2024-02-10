@@ -18,5 +18,8 @@
     "cv": {
         "title": "Computer Vision",
         "type": "page"
+    },
+    "admin": {
+        "title": "Admin"
     }
   }
