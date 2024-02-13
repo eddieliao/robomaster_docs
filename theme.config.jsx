@@ -16,7 +16,7 @@ export default {
         const { asPath } = useRouter()
         if (asPath !== '/') {
           return {
-            titleTemplate: '%s'
+            titleTemplate: '%s - Stampede Docs'
           }
         }
     },
@@ -25,6 +25,9 @@ export default {
     docsRepositoryBase: 'https://github.com/eddieliao/robomaster_docs/tree/main/',
     feedback: {
         content: null
-    }
+    },
+    head: (
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    )
     // ... other theme options
 }
