@@ -7,7 +7,7 @@ module.exports = withNextra({
     images: {
         unoptimized: true,
     },
-    output: process.env.NODE_ENV === "production" ? 'export' : undefined,
+    // output: process.env.NODE_ENV === "production" ? 'export' : undefined,
     basePath: process.env.NODE_ENV === "production" ? "/robomaster_docs" : undefined,
     assetPrefix: process.env.NODE_ENV === "production" ? "/robomaster_docs/" : undefined,
 })
