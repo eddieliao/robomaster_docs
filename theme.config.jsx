@@ -28,6 +28,13 @@ export default {
     },
     head: (
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    )
+    ),
+    footer: {
+        text: (
+          <span>
+            Stampede © {new Date().getFullYear()}
+          </span>
+        )
+    }
     // ... other theme options
 }
